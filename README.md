@@ -23,5 +23,6 @@ echo $record->operator();
 
 ## Обработка ошибок
 
-Если передан телефон в неверном формате, то будет выброшено исключение `\MobileOperatorsCodes\RecordNotFoundException`.
-Если запись о номере телефона не найдена в БД, то будет выброшено исключение `\MobileOperatorsCodes\WrongPhoneNumberFormatException`.
+Если передан телефон в неверном формате, то будет выброшено исключение `\MobileOperatorsCodes\WrongPhoneNumberFormatException`.
+
+Если запись о номере телефона не найдена в БД, то будет выброшено исключение `\MobileOperatorsCodes\RecordNotFoundException`.
