@@ -1,0 +1,23 @@
+{
+  "name": "xdpx/mobile-operators-codes",
+  "description": "Библиотека для определения мобильного оператора и региона по номеру телефона",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Denis Pugachev",
+      "email": "xdpugachevx@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-pdo": "*",
+    "ext-pdo_sqlite": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MobileOperatorsCodes\\": "src/MobileOperatorsCodes"
+    }
+  }
+}
