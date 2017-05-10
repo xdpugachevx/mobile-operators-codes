@@ -18,7 +18,7 @@ $record = $reader->findRecord('89991234567');
 $record = $reader->findRecord('(999) 123-45-67');
 $record = $reader->findRecord('9991234567');
 
-echo $record->operator();
+echo $record->getOperator();
 ```
 
 ## Обработка ошибок

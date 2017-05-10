@@ -58,7 +58,7 @@ class Record
     /**
      * @return string
      */
-    public function phoneCode()
+    public function getPhoneCode()
     {
         return $this->phoneCode;
     }
@@ -66,7 +66,7 @@ class Record
     /**
      * @return string
      */
-    public function phoneNumber()
+    public function getPhoneNumber()
     {
         return $this->phoneNumber;
     }
@@ -74,7 +74,7 @@ class Record
     /**
      * @return string
      */
-    public function operator()
+    public function getOperator()
     {
         return $this->operator;
     }
@@ -82,7 +82,7 @@ class Record
     /**
      * @return string
      */
-    public function region()
+    public function getRegion()
     {
         return $this->region;
     }
@@ -93,7 +93,7 @@ class Record
      * @param string $prefix
      * @return string
      */
-    public function fullPhoneNumber($prefix = '+7')
+    public function getFullPhoneNumber($prefix = '+7')
     {
         return $prefix . $this->phoneCode . $this->phoneNumber;
     }
